@@ -212,10 +212,6 @@ What `nuxt-osdd` changes in practice
     - label: Get started
       to: '/getting-started/installation'
       trailingIcon: i-lucide-arrow-right
-    - label: Usage examples
-      to: '/getting-started/usage'
-      variant: subtle
-      icon: i-lucide-terminal
   title: Ready to organize your Nuxt app with OSDD?
   description: Install `nuxt-osdd`, generate your first layers, and keep business logic and infrastructure concerns cleanly separated.
   class: dark:bg-neutral-950

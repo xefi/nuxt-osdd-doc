@@ -12,7 +12,7 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt OSDD',
+    siteName: 'Nuxt OSDD'
   },
   header: {
     title: 'Nuxt OSDD',
@@ -51,21 +51,5 @@ export default defineAppConfig({
       'to': '/getting-started/installation',
       'aria-label': 'Installation guide'
     }]
-  },
-  toc: {
-    title: 'On this page',
-    bottom: {
-      title: 'Resources',
-      links: [{
-        icon: 'i-simple-icons-npm',
-        label: 'npm package',
-        to: 'https://www.npmjs.com/package/nuxt-osdd',
-        target: '_blank'
-      }, {
-        icon: 'i-lucide-terminal',
-        label: 'Usage guide',
-        to: '/getting-started/usage'
-      }]
-    }
   }
 })
